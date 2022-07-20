@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="saved.html">Saved For Later</a>
+                 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Online shop.html">Online shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+    </header>
+    <div id="title" class="container"> 
+      <h3>Race car Gear</h3>
+    </div> 
+        <article class="container">
+         
+              <div id="card1" class="card-deck">
+                <div class="card ">
+                    <div class="card-body text-center">
+                      <img src="./images/aluminumwheels.jpg" alt="wheels">
+                      <p class="card-text">
+                          <h2>Aluminum wheels</h2>
+                        
+                          <p>wheels you can trust..</p>
+                          
+                  
+                        <p><b>R 27,999</b></p>
+                        <p><button id="btn" onclick="addItems('Aluminum wheels', 27.999 ,'./images/aluminumwheels.jpg','')" type="button">Save for later</button></p>
+                      </p>
+                    </div>
+                  </div>
+                  <div id="card2" class="card ">
+                    <div class="card-body text-center">
+                      <img src="./images/tyres.jpg" alt="tyres">
+                      <p class="card-text">
+                          <h2>Tyres</h2>
+                          
+                          <p>Go further with our tyres..</p>
+                          
+                    
+                        <p><b>R 25,999</b></p>
+                        <p><button id="btn" onclick="addItems('Tyres', 25.999 ,'./images/tyres.jpg','')" type="button">Save for later</button></p>
+                      </p>
+                    </div>
+                  </div>
+                  <div id="card3" class="card ">
+                    <div class="card-body text-center">
+                      <img src="./images/measuringtools.jpg" alt="tools">
+                      <p class="card-text">
+                          <h2>Measuring tools</h2>
+                          
+                          <p>Precise and accurate ..</p>
+                          
+                      
+                        <p><b>R 27,999</b></p>
+                        <p><button id="btn" onclick="addItems('Measuring Tools', 20.999 ,'./images/measuringtools.jpg','')" type="button">Save for later</button></p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                  
+    </article>
+
+    <section id="mechants" class="container">
+        <div class="card-deck">
+            
+            <div id="card4" class="card ">
+              <div class="card-body text-center">
+                <img src="./images/exhaustmanifolds.jpg" alt="exhaust">
+                <p class="card-text">
+                    <h2>Exhaust manifolds</h2>
+                   
+                    <p>Run off manifolds..</p>
+            
+                  <p><b>R 19,999</b></p>
+                  <p><button id="btn" onclick="addItems('Exhaust manifolds', 19.999 ,'./images/exhaustmanifolds.jpg','')" type="button">Save for later</button></p>
+                </p>
+              </div>
+            </div>
+            <div id="card5" class="card ">
+                <div class="card-body text-center">
+                  <img src="./images/exhaustsystems.jpg" alt="exhaustsystems">
+                  <p class="card-text">
+                      <h2>Exhaustsystems</h2>
+                     
+                      <p>Exhaustsystems..</p>
+                      
+                
+                    <p><b>R 30,999</b></p>
+                    <p><button id="btn" onclick="addItems('Exhaust systems', 30.999 ,'./images/exhaustsystems.jpg','')"  type="button">Save for later</button></p>
+                  </p>
+                </div>
+              </div>
+              <div id="card6" class="card ">
+                <div class="card-body text-center">
+                  <img src="./images/helmets.jpg" alt="helmets">
+                  <p class="card-text">
+                      <h2>Helmets</h2>
+                      
+                      <p>Protect you head and win the race ..</p>
+                      
+              
+                    <p><b>R 15,999</b></p>
+                    <p><button id="btn" onclick="addItems('Helmets', 15.999 ,'./images/helmets.jpg','')" type="button">Save for later</button></p>
+                  </p>
+                </div>
+              </div>
+                <!-- ref to the  comments box below ..https://bbbootstrap.com/snippets/bootstrap-like-comment-share-section-comment-box-63008805#-->
+    </section>
+    <div class="container mt-5">
+      <div class="d-flex justify-content-center row">
+          <div class="col-md-8">
+              <div class="d-flex flex-column comment-section">
+                  <div class="bg-white p-2">
+                      <div class="d-flex flex-row user-info"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40">
+                          <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">Marry Andrews</span><span class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                      </div>
+                      <div class="mt-2">
+                          <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                  </div>
+                  <div class="bg-white">
+                      <div class="d-flex flex-row fs-12">
+                          <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Like</span></div>
+                          <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">Comment</span></div>
+                          <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
+                      </div>
+                  </div>
+                  <div class="bg-light p-2">
+                      <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"><textarea id="pst" type="text" class="form-control ml-1 shadow-none textarea"></textarea></div>
+                      <div class="mt-2 text-right"><button id="comment" class="btn btn-primary btn-sm shadow-none" type="button" onclick="addComment()">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+    <footer>
+        <div class="container bg-warning">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our services</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Drivers</a></li>
+                        <li><a href="#">Payment options</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Online shop</h4>
+                    <ul>
+                        <li><a href="#">watch F1</a></li>
+                        <li><a href="#">Esport</a></li>
+                        <li><a href="#">Fantasy</a></li>
+                        <li><a href="#">Driver standing</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+  
+       
+      </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+    </body>
+</html>

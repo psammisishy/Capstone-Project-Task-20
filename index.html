@@ -1,0 +1,178 @@
+<!-- two pages  HTML with a home and about page -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+       
+        <title>psound 24</title>   
+    </head>
+<body>
+<header>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="saved.html">Saved For Later</a>
+             
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Online shop.html">Online shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+</header>
+<div id="F1cars" class="container">
+  <!-- div containing 5 cars on a slide show -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/acronis.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/mac.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/mostwanted.jpg" alt="Third slide">
+              </div>
+            
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/Ryan.jpg" alt="fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/red-bull.jpg" alt="fiveth slide">
+              </div>
+            </div>
+         
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          </div>
+  
+<article class="container">
+  <h2 class="bg-danger">News</h2>
+    <!-- current and live news with links to the official F1 page-->
+  <p><a href="https://www.formula1.com/en/latest/article.race-engineer-guillaume-rocquelin-to-take-on-red-bull-junior-team-role-says.2LD6DczddVFKFRxRDxKML4.html"><i>"Race engineer Guillaume Rocquelin to take on Red Bull Junior Team role, says Horner"</i></a></p>
+  <img src="images/image.jpg" alt="Guillaume Rocquelin ">
+  <button type="button">save</button>
+  <p><a href="https://www.formula1.com/en/latest/article.5-things-we-learned-from-friday-practice-for-the-australian-grand-prix.65v1yIL0tNyV3ROgiQBI6w.html">READ MORE: 5 things we learned from Friday practice for the Australian Grand Prix</a></p>
+<h3>Current Driver Standings</h3>
+<!-- table showing log standing for drivers and background image-->
+<table id="standings" class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Pos</th>
+      <th scope="col">Name</th>
+      <th scope="col">Country</th>
+      <th scope="col">Car</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Charles Leclerc</td>
+      <td>MON</td>
+      <td>FERRARI</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>George Russell</td>
+      <td>GBR</td>
+      <td>MERCEDES</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Carlos Sainz</td>
+      <td>ESP</td>
+      <td>FERRARI</td>
+    </tr>
+  </tbody>
+  
+</table>
+
+<div id="teamstanding">
+  <h4>Teams Standings</h4>
+  <ol>
+    <li> FERRARI </li>
+    <li>MERCEDES</li>
+    <li>RED BULL RACING RBPT</li>
+    <li>	MCLAREN MERCEDES</li>
+  </ol>
+</div>
+<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+</article>
+
+<footer>
+  <div class="container bg-warning">
+      <div class="row">
+          <div class="col-sm-3">
+              <h4>Company</h4>
+              <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Our services</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Affiliate program</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-3">
+              <h4>Get help</h4>
+              <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Teams</a></li>
+                  <li><a href="#">Drivers</a></li>
+                  <li><a href="#">Payment options</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-3">
+              <h4>Online shop</h4>
+              <ul>
+                  <li><a href="#">watch F1</a></li>
+                  <li><a href="#">Esport</a></li>
+                  <li><a href="#">Fantasy</a></li>
+                  <li><a href="#">Driver standing</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-3">
+              <h4>Follow us</h4>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+ 
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

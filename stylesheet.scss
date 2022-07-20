@@ -1,0 +1,104 @@
+body {
+    $myFont: Helvetica, sans-serif, Arial;
+    $myFontSize: 18px;
+    $myWidth: 680px;
+  
+  body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    margin: 0;
+  }
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 33%;
+    max-height:350px ;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ #title{
+   margin-bottom: 20px;
+   text-align: center;
+  }
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding:10px;
+  }
+.date{
+  font-size: 11px
+}
+.comment-text{
+  font-size: 12px
+}
+.fs-12{
+  font-size: 12px
+}
+  .shadow-none{
+    box-shadow: none
+  }
+    .name{
+      color: #007bff
+    }
+    .cursor:hover{
+      color: blue
+    }
+    .cursor{
+      cursor: pointer
+    }
+    .textarea{
+      resize: none
+    }
+    fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
